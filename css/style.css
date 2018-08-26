@@ -51,6 +51,7 @@ header {
 
 .logo {
     flex-basis: 30%;
+    max-width: 30%;
 }
 
 .logo__for-hire {
