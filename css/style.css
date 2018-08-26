@@ -43,14 +43,15 @@ header {
 
 .logo__box {
     position: relative;
-}
-
-.logo__link {
     display: flex;
 }
 
-.logo {
+.logo__link {
     flex-basis: 30%;
+}
+
+.logo {
+    max-width: 100%;
 }
 
 .logo__for-hire {
@@ -254,14 +255,13 @@ header {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    padding: 15rem 3rem 0 3rem;
+    padding: 15rem 3rem 10rem 3rem;
     flex-basis: calc(33% - 8rem);
     margin-bottom: 5rem;
 }
 
 .about__skill-icon {
-    width: auto;
-    height: 10%;
+    max-width: 15%;
 }
 
 .tertiary__heading {
